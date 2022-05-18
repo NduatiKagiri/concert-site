@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-@font-face {
-    font-family: 'Cocogoose';
-    src: url('cocogoose_pro-trial-webfont.woff2') format('woff2'),
-         url('cocogoose_pro-trial-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
+@font-face {
+  font-family: 'Cocogoose';
+  src:
+    url('cocogoose_pro-trial-webfont.woff2') format('woff2'),
+    url('cocogoose_pro-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -26,27 +27,27 @@ a {
   text-decoration: none;
 }
 
-.top-bar {
+#top-bar {
   background: #272a31;
   width: 100%;
   padding: 15px 140px;
 }
 
-.top-bar ul {
+#top-bar ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
 
-.top-bar ul li {
+#top-bar ul li {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 15px;
 }
 
-.top-bar ul li a {
+#top-bar ul li a {
   text-align: center;
   font: normal normal 400 12px/15px 'Lato', sans-serif;
   letter-spacing: 0;
@@ -144,6 +145,7 @@ nav .nav-links-list li a {
 
   .nav-logo {
     display: none;
+    width: 80%;
   }
 
   header {
@@ -155,10 +157,6 @@ nav .nav-links-list li a {
   nav {
     display: flex;
     justify-content: flex-end;
-  }
-
-  .nav-logo {
-    width: 80%;
   }
 
   .nav-links {

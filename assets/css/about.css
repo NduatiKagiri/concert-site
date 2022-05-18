@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-@font-face {
-    font-family: 'Cocogoose';
-    src: url('cocogoose_pro-trial-webfont.woff2') format('woff2'),
-         url('cocogoose_pro-trial-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
+@font-face {
+  font-family: 'Cocogoose';
+  src:
+    url('cocogoose_pro-trial-webfont.woff2') format('woff2'),
+    url('cocogoose_pro-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.top-bar {
+#top-bar {
   padding: 15px 50px 15px 230px;
 }
 
@@ -82,7 +83,7 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-  .top-bar {
+  #top-bar {
     display: none;
   }
 
@@ -311,7 +312,7 @@ header {
 
 #partners-about {
   /* background: #272a31; */
-  background: #000000;
+  background: #000;
   display: none;
   flex-direction: column;
   justify-content: flex-start;
@@ -350,7 +351,7 @@ header {
 }
 
 .partners img {
-  height:35px;
+  height: 35px;
   width: auto;
   margin-right: 35px;
 }
@@ -394,7 +395,7 @@ header {
   }
 
   .partners img {
-    height:35px;
+    height: 35px;
     width: auto;
     margin-right: 35px;
     margin-bottom: 40px;
@@ -402,7 +403,7 @@ header {
 }
 
 .footer-about {
-  background: #000000;
+  background: #000;
   padding: 30px 100px 30px 300px;
   display: flex;
   flex-direction: row;
