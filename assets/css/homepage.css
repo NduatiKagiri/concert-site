@@ -262,7 +262,7 @@
 
 @media screen and (max-width: 768px) {
   #program {
-    padding: 10px 20px;
+    padding: 10px 20px 60px 20px;
     justify-content: flex-start;
   }
 
