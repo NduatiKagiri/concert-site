@@ -82,9 +82,17 @@ header {
   text-decoration: underline;
 }
 
+#home-link {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   #top-bar {
     display: none;
+  }
+
+  #home-link {
+    display: block;
   }
 
   header {

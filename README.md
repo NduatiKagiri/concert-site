@@ -8,6 +8,10 @@
 - HTML, CSS, JS
 - Stylelint, ESlint, Web Hint, Lighthouse
 
+## Online Version Link
+This project is available online through the following link:
+https://concert.nduatikagiri.co.ke
+
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
@@ -35,8 +39,6 @@ GitHub: https://github.com/NduatiKagiri
 Twitter: https://twitter.com/NduatiKagiri
 LinkedIn: https://linkedin.com/in/nduati-kagiri-5414a4225/
 
-Original design idea by Cindy Shin in Behance
-
 ## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
 
@@ -46,6 +48,7 @@ Feel free to check the issues page.
 Give a :star:️ if you like this project!
 
 ## Inspiration
+Original design idea by Cindy Shin in Behance
 
 ##:memo: License
 This project is MIT licensed.

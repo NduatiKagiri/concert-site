@@ -132,7 +132,7 @@
   background: url('../img/program-bg.jpg') no-repeat right;
   background-size: cover;
   width: 100%;
-  padding: 40px 140px;
+  padding: 50px 140px 80px 140px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -172,6 +172,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 35px;
+  margin-bottom: 40px;
 }
 
 .program-card {
