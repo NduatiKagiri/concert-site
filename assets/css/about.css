@@ -10,11 +10,11 @@
 }
 
 #top-bar {
-  padding: 15px 50px 15px 230px;
+  display: none;
 }
 
 header {
-  padding: 10px 50px 10px 230px;
+  padding: 5px 30px;
 }
 
 #about-link {
@@ -26,26 +26,26 @@ header {
   background-size: cover;
   width: 100%;
   height: 87vh;
-  padding: 20px 50px 20px 230px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid #d3d3d3;
+  padding: 20px 20px;
+  justify-content: space-around;
 }
 
 .heading h1 {
   color: #ec5242;
   font-family: 'Cocogoose', sans-serif;
-  font-weight: 800;
-  font-size: 75px;
-  line-height: 75px;
   text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
 }
 
 .headline-info {
   background: #fff;
-  padding: 20px 80px;
+  padding: 10px 20px;
 }
 
 .headline-info p {
@@ -83,42 +83,41 @@ header {
 }
 
 #home-link {
-  display: none;
+  display: block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   #top-bar {
-    display: none;
+    padding: 15px 50px 15px 230px;
   }
 
   #home-link {
-    display: block;
+    display: none;
   }
 
   header {
-    padding: 5px 30px;
+    padding: 10px 50px 10px 230px;
   }
 
   #headline {
-    padding: 20px 20px;
     justify-content: space-around;
-    align-items: center;
+    padding: 20px 50px 20px 230px;
   }
 
   .heading h1 {
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 40px;
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 75px;
   }
 
   .headline-info {
-    padding: 10px 20px;
+    padding: 20px 80px;
   }
 }
 
 #logo {
   width: 100%;
-  padding: 30px 100px 30px 300px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -130,8 +129,8 @@ header {
   color: #272a31;
   font-family: 'Cocogoose', sans-serif;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 20px;
   letter-spacing: 0;
 }
 
@@ -141,7 +140,7 @@ header {
   position: absolute;
   width: 50px;
   border-bottom: 3px solid #ec5242;
-  margin-left: 165px;
+  margin-left: 120px;
   margin-top: 10px;
 }
 
@@ -161,34 +160,33 @@ header {
 
 .logo-img {
   border: 1px solid #d3d3d3;
-  padding: 15px 40px;
+  padding: 15px 0;
+  width: 80%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   #logo {
-    padding: 50px 20px;
+    padding: 30px 100px 30px 300px;
   }
 
   .logo-heading h2 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .logo-heading h2::after {
-    margin-left: 120px;
+    margin-left: 165px;
   }
 
   .logo-img {
-    border: 1px solid #d3d3d3;
-    padding: 15px 0;
-    width: 80%;
+    padding: 15px 40px;
+    width: auto;
   }
 }
 
 #summits {
   width: 100%;
-  padding: 30px 100px 30px 300px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -200,8 +198,8 @@ header {
   color: #272a31;
   font-family: 'Cocogoose', sans-serif;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 20px;
   letter-spacing: 0;
 }
 
@@ -211,7 +209,7 @@ header {
   position: absolute;
   width: 50px;
   border-bottom: 3px solid #ec5242;
-  margin-left: 165px;
+  margin-left: 120px;
   margin-top: 10px;
 }
 
@@ -231,7 +229,7 @@ header {
 
 .summits {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -242,7 +240,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 49%;
+  width: 100%;
   height: 220px;
 }
 
@@ -279,38 +277,39 @@ header {
 #summit1 {
   background: url('../img/summit1.jpeg') no-repeat;
   background-size: cover;
+  margin-bottom: 24px;
 }
 
 #summit2 {
   background: url('../img/summit2.jpeg') no-repeat;
   background-size: cover;
+  margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   #summits {
-    padding: 50px 20px;
+    padding: 30px 100px 30px 300px;
   }
 
   .summits-heading h2 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .summits-heading h2::after {
-    margin-left: 120px;
+    margin-left: 165px;
   }
 
   .summits {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .summit {
-    width: 100%;
+    width: 49%;
   }
 
   #summit1 {
-    margin-bottom: 24px;
+    margin-bottom: 0;
   }
 
   #summit2 {
@@ -319,13 +318,12 @@ header {
 }
 
 #partners-about {
-  /* background: #272a31; */
   background: #000;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 40px 140px;
+  padding: 20px 20px;
   margin-top: 50px;
 }
 
@@ -362,57 +360,23 @@ header {
   height: 35px;
   width: auto;
   margin-right: 35px;
+  margin-bottom: 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   #partners-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px 20px;
-    margin-top: 50px;
-  }
-
-  .partners-header h2 {
-    color: #fff;
-    font-family: 'Cocogoose', sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: 0;
-  }
-
-  .partners-header h2::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 50px;
-    border-bottom: 3px solid #ec5242;
-    margin-left: 22px;
-    margin-top: 10px;
-  }
-
-  .partners {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: none;
+    padding: 40px 140px;
   }
 
   .partners img {
-    height: 35px;
-    width: auto;
-    margin-right: 35px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
   }
 }
 
 .footer-about {
-  background: #000;
-  padding: 30px 100px 30px 300px;
+  padding: 20px 10px;
+  background: #d3d3d3;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -420,65 +384,65 @@ header {
 }
 
 .footer-about .footer-logo {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .footer-about .footer-logo img {
+  width: 100px;
   height: 40px;
 }
 
 #blacklogo {
+  display: flex;
+}
+
+#whitelogo {
   display: none;
 }
 
 .footer-about .footer-info h5 {
-  color: #fff;
   font-family: 'Cocogoose', sans-serif;
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 12px;
+  color: #272a31;
 }
 
 .footer-about .footer-info p {
-  color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 14px;
+  color: #272a31;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .footer-about {
-    padding: 20px 10px;
-    background: #d3d3d3;
+    background: #000;
+    padding: 30px 100px 30px 300px;
   }
 
   .footer-about .footer-logo {
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   .footer-about .footer-logo img {
-    width: 100px;
-    height: 40px;
+    width: auto;
   }
 
   #blacklogo {
-    display: flex;
-  }
-
-  #whitelogo {
     display: none;
   }
 
+  #whitelogo {
+    display: flex;
+  }
+
   .footer-about .footer-info h5 {
-    color: #272a31;
-    font-family: 'Cocogoose', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    margin-bottom: 12px;
+    color: #fff;
   }
 
   .footer-about .footer-info p {
-    color: #272a31;
+    color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 14px;
